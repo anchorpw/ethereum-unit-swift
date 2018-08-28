@@ -1,0 +1,27 @@
+{
+  "name": "EthereumUnitSwift",
+  "version": "0.1.0",
+  "summary": "A short description of EthereumUnitSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ne0nx/EthereumUnitSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ne0nx": "d.karachentsov@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ne0nx/EthereumUnitSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "EthereumUnitSwift/Classes/**/*",
+  "dependencies": {
+    "BigInt": [
+      "~> 3.1"
+    ]
+  }
+}

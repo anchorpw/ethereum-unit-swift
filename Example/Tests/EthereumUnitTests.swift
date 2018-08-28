@@ -1,7 +1,17 @@
+//
+//  EthereumUnitTests.swift
+//  EthereumUnitSwift_Tests
+//
+//  Created by Dmitriy Karachentsov on 28/8/18.
+//  Copyright © 2018 Anchor. All rights reserved.
+//
+
 import XCTest
 import EthereumUnitSwift
+import Nimble
+import BigInt
 
-class Tests: XCTestCase {
+class EthereumUnitTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -13,16 +23,9 @@ class Tests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure() {
-            // Put the code you want to measure the time of here.
-        }
+    func testNames() {
+        expect(EthereumUnit.ether.name).to(equal("Ether"))
+        expect(EthereumUnit.wei.name).to(equal("Wei"))
     }
     
 }

@@ -1,0 +1,6 @@
+framework module EthereumUnitSwift {
+  umbrella header "EthereumUnitSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

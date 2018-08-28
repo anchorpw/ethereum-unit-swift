@@ -2,10 +2,10 @@ use_frameworks!
 
 target 'EthereumUnitSwift_Example' do
   pod 'EthereumUnitSwift', :path => '../'
-
+  
   target 'EthereumUnitSwift_Tests' do
-    inherit! :search_paths
-
-    
+      inherit! :search_paths
+      
+      pod 'Nimble', '~> 7.0.2'
   end
 end

@@ -1,0 +1,6 @@
+framework module Pods_EthereumUnitSwift_Tests {
+  umbrella header "Pods-EthereumUnitSwift_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

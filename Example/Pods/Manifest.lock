@@ -1,0 +1,31 @@
+PODS:
+  - BigInt (3.1.0):
+    - SipHash (~> 1.2)
+  - EthereumUnitSwift (0.1.0):
+    - BigInt (~> 3.1)
+  - Nimble (7.0.3)
+  - SipHash (1.2.2)
+
+DEPENDENCIES:
+  - EthereumUnitSwift (from `../`)
+  - Nimble (~> 7.0.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BigInt
+    - Nimble
+    - SipHash
+
+EXTERNAL SOURCES:
+  EthereumUnitSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
+  EthereumUnitSwift: a11739c5d55470a33d52fe199fcdbfb7bf491fce
+  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
+  SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
+
+PODFILE CHECKSUM: 879c574881d833903b7ec05215171ff9b337cf7f
+
+COCOAPODS: 1.5.3
