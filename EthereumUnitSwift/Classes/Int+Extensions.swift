@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import BigInt
 
 public extension SignedInteger where Self: FixedWidthInteger {
     
