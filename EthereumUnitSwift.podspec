@@ -9,25 +9,11 @@
 Pod::Spec.new do |s|
   s.name             = 'EthereumUnitSwift'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of EthereumUnitSwift.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/ne0nx/EthereumUnitSwift'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.summary          = 'Ethereum unit conversion for Swift'
+  s.homepage         = 'https://github.com/anchorpw/ethereum-unit-swift'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ne0nx' => 'd.karachentsov@gmail.com' }
-  s.source           = { :git => 'https://github.com/ne0nx/EthereumUnitSwift.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.source           = { :git => 'https://github.com/anchorpw/ethereum-unit-swift', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
   s.source_files = 'EthereumUnitSwift/Classes/**/*'
   s.dependency 'BigInt', '~> 3.1'
